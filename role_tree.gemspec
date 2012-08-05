@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/role_tree/version', __FILE__)
+require File.expand_path('../lib/role_tree', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Ruoran Wang"]
@@ -17,5 +17,4 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rspec'
-
 end
